@@ -1,57 +1,100 @@
-body {    
-    background-color: #afb8c133;
+/* body */
+:root {
+    --background-color: #afb8c133;    
 }
 
-.curriculo {
-    background-color: #afb8c133;    
+body {    
+    background-color: var(--background-color);
     border: 1px solid #000000;
-    border-radius: 20px;
+    border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;    
     margin: auto;
-    padding: 20px;
     max-width: 1000px;
+    padding: 20px;
     text-align: justify;
 }
 
-.footer {
-    font-size: 12px;
-    margin-top: 25px;
-    text-align: right;
+p {
+    margin: 0px 20px 0px 20px;   
 }
 
-h2 {
-    padding-top: 20px;
+a:link {
+    color: #26316c;    
 }
 
-img {    
-    width: 32px;
-    height: 32px;
-    padding-left: 10px;
-    padding-right: 10px;  
+a:hover {
+    color: #000000;
 }
 
-li {
-    margin-bottom: 10px;
-    padding: 15px 5px 0 0;    
+a:visited {
+    color: var(--background-color);
 }
 
-.main-menu {    
-    align-items: center;
-    background-color: #afb8c133;
-    border: 1px solid #afb8c133;
-    border-radius: 5px;
-    display: flex;
-    height: 48px;       
-}
+/* ----- header ----- */
 
-.profile-photo {
+.profile-photo {    
     border-radius: 20px;
     height: 184px;
     width: 184px;
 }
 
-.social-networks {
-    margin-bottom: 10px;
-    padding: 15px 5px 0 0;
-    width: 10%;
+header p {
+    margin-left: 0px;
+}
+
+nav {
+    align-items: center;
+    background-color: var(--background-color);
+    border: 1px solid var(--background-color);
+    border-radius: 50px;
+    display: flex;
+    height: 48px;    
+}
+
+nav a {
+    margin-right: 24px;
+}
+
+img {        
+    height: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img social-networks {
+    width: 32px;
+}
+
+img youtube-network {
+    width: 47px;
+}
+
+/* ----- Sections ----- */
+
+h2 {    
+    background-color: var(--background-color);
+    border: 1px solid var(--background-color);
+    border-radius: 10px;
+    display: flex;
+    font-size: 16px;    
+    padding: 5px 5px 5px 15px;
+}
+
+ul {
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+
+li {    
+    margin: 0px 20px 5px 0px;
+    padding: 10px 5px 0 0;    
+}
+
+/* ----- Footer ----- */
+
+footer {
+    font-size: 12px;
+    margin-top: 25px;
+    text-align: right;
 }
