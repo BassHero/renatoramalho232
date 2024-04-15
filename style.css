@@ -10,7 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5rem;    
     margin: auto;
-    
+    max-width: 1000px;
     padding: 20px;
     text-align: justify;
 }
@@ -50,7 +50,7 @@ nav {
     border: 1px solid var(--background-color);
     border-radius: 50px;
     display: flex;
-    height: 48px;
+    
     max-width: 100%;  
 }
 
@@ -60,8 +60,8 @@ nav a {
 
 img {        
     height: 32px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 8px 10px 8px 10px;
+    
 }
 
 img social-networks {
