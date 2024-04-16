@@ -48,21 +48,23 @@ nav {
     align-items: center;
     background-color: var(--background-color);
     border: 1px solid var(--background-color);
-    border-radius: 50px;
-    display: flex;    
+    border-radius: 48px;
+    
     max-width: 100%;  
 }
 
 nav a {
-    margin-right: 24px;
+    margin-left: 8px;
+    margin-right: 12px;   
 }
 
 img {        
-    height: 32px;
-    padding: 8px 10px 8px 10px;    
+    height: 32px;    
+    margin-top: 8px;
+    margin-left: 8px;
 }
 
-img social-networks {
+img social-networks {    
     width: 32px;
 }
 
