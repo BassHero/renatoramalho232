@@ -15,7 +15,7 @@ body {
 
 iframe {    
     width: 1000px;
-    height: 434px;
+    height: 442px;
     margin: 0px;
 }
 
@@ -57,20 +57,20 @@ nav {
     background-color: var(--background-color);
     border: 1px solid var(--background-color);
     border-radius: 48px;    
-    display: block;
+    display: flex;
+    height: 48px;
     max-width: 100%;  
 }
 
-nav a {
-    height: 48px;    
-    margin-left: 8px;
-    margin-right: 12px;   
+nav a {    
+    height: 32px;   
+    padding: 8px 16px 0px 8px;
+    
 }
 
 img {        
     height: 32px;    
-    margin-top: 8px;
-    margin-left: 8px;
+    padding: 8px;
 }
 
 img social-networks {    
@@ -99,15 +99,14 @@ section {
 h2 {    
     background-color: var(--background-color);
     border: 1px solid var(--background-color);
-    border-radius: 10px;
-    display: flex;
+    border-radius: 10px;    
     font-size: 16px;    
     padding: 5px 5px 5px 15px;
 }
 
 ul {
     margin-top: -10px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 li {    
