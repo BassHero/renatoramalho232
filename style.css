@@ -8,6 +8,7 @@
 body {    
     display: grid;
     font-family: Arial, Helvetica, sans-serif;
+    /* height: 2000px; */
     line-height: 1.5rem;    
     margin: auto;    
     max-width: 1000px;    
@@ -15,8 +16,12 @@ body {
 
 iframe {    
     width: 1000px;
-    height: 442px;
+    height: 640px;
     margin: 0px;
+}
+
+.iframe-footer {
+    height: 53px;
 }
 
 p {
@@ -45,11 +50,15 @@ a:visited {
     width: 184px;
 }
 
+
 header {    
+    background-image: url(images/cover-photo.jpeg);
+    background-repeat: no-repeat;
     border: 1px solid #000000;
     border-bottom: 0px;
-    border-radius: 20px 20px 0px 0px;    
+    border-radius: 0px;
     padding: 20px;
+    padding-top: 200px;
 }
 
 header p {
@@ -75,8 +84,6 @@ nav a {
 img {        
     height: 32px;    
     padding: 8px;
-    top: 50%;
-    left: 50%;
 }
 
 img social-networks {    
@@ -92,7 +99,7 @@ img youtube-network {
 main {
     border-right: 1px solid #000000;
     border-left: 1px solid #000000;
-    margin-top: -20px;
+    margin-top: -50px;
     margin-bottom: -25px;    
 }
 
